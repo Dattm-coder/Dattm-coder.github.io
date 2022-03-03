@@ -16,7 +16,13 @@ Hãy xem chi tiết
     <title>Document</title>
 </head>
 <body>
-    <label for="">Hola</label>
+    <h1>Hola</h1>
 </body>
 </html>
+```
+
+```css
+h1 {
+    color: brown;
+}
 ```
