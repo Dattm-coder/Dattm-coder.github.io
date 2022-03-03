@@ -1,0 +1,13 @@
+table, tr, td, th {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: separate;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    margin: auto;
+}
+h3{
+    text-align: center;
+}

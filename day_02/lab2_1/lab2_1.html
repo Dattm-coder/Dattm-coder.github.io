@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab2_1</title>
+
+    <!--  -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <td colspan="2"><h3>ĐĂNG KÝ</h3></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <label for="">Full name</label>
+          </td>
+          <td>
+            <input type="text" placeholder="Nhập fullname" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="">User name</label>
+          </td>
+          <td>
+            <input type="text" placeholder="Nhập tên" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="">Password</label>
+          </td>
+          <td>
+            <input type="text" placeholder="Nhập mật khẩu" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="">Nhập lại Password</label>
+          </td>
+          <td>
+            <input type="text" placeholder="Nhập lại mật khẩu" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="">Giới tính</label>
+          </td>
+          <td>
+            <input type="radio" name="Gender" id="male" />
+            <label for="male">Nam</label>
+            <input type="radio" name="Gender" id="famale" />
+            <label for="famale">Nữ</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="">Ngày sinh</label>
+          </td>
+          <td>
+            <span>
+              <select name="day" id="day">
+                <option value="01">Ngày 1</option>
+                <option value="02">Ngày 2</option>
+                <option value="03">Ngày 3</option>
+                <option value="04">Ngày 4</option>
+                <option value="05">Ngày 5</option>
+                <option value="06">Ngày 6</option>
+                <option value="07">Ngày 7</option>
+                <option value="08">Ngày 8</option>
+                <option value="09">Ngày 9</option>
+                <option value="10">Ngày 10</option>
+                <option value="11">Ngày 11</option>
+                <option value="12">Ngày 12</option>
+                <option value="13">Ngày 13</option>
+                <option value="14">Ngày 14</option>
+                <option value="15">Ngày 15</option>
+                <option value="16">Ngày 16</option>
+                <option value="17">Ngày 17</option>
+                <option value="18">Ngày 18</option>
+                <option value="19">Ngày 19</option>
+                <option value="20">Ngày 20</option>
+                <option value="21">Ngày 21</option>
+                <option value="22">Ngày 22</option>
+                <option value="23">Ngày 23</option>
+                <option value="24">Ngày 24</option>
+                <option value="25">Ngày 25</option>
+                <option value="26">Ngày 26</option>
+                <option value="27">Ngày 27</option>
+                <option value="28">Ngày 28</option>
+                <option value="29">Ngày 29</option>
+                <option value="30">Ngày 30</option>
+                <option value="31">Ngày 31</option>
+              </select>
+              <select name="mouth" id="mouth">
+                <option value="01">Tháng 1</option>
+                <option value="02">Tháng 2</option>
+                <option value="03">Tháng 3</option>
+                <option value="04">Tháng 4</option>
+                <option value="05">Tháng 5</option>
+                <option value="06">Tháng 6</option>
+                <option value="07">Tháng 7</option>
+                <option value="08">Tháng 8</option>
+                <option value="09">Tháng 9</option>
+                <option value="10">Tháng 10</option>
+                <option value="11">Tháng 11</option>
+                <option value="12">Tháng 12</option>
+              </select>
+              <select name="year" id="year">
+                <option value="2001">Năm 2001</option>
+                <option value="2002">Năm 2002</option>
+                <option value="2003">Năm 2003</option>
+                <option value="2004">Năm 2004</option>
+                <option value="2005">Năm 2005</option>
+                <option value="2006">Năm 2006</option>
+                <option value="2007">Năm 2007</option>
+                <option value="2008">Năm 2008</option>
+                <option value="2009">Năm 2009</option>
+                <option value="2010">Năm 2010</option>
+                <option value="2011">Năm 2011</option>
+                <option value="2012">Năm 2012</option>
+              </select>
+            </span>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="">Địa chỉ</label>
+          </td>
+          <td>
+            <textarea name="address" id="address" cols="30" rows="2"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td>Avatar</td>
+          <td>
+            <input type="file" name="" id="" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="">Sở thích</label>
+          </td>
+          <td>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Film" />
+            <label for="vehicle1"> Xem phim</label><br />
+            <input
+              type="checkbox"
+              id="vehicle2"
+              name="vehicle2"
+              value="Sport"
+            />
+            <label for="vehicle2"> Thể thao</label><br />
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Web" />
+            <label for="vehicle3"> Web</label><br />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align: center">
+            <button>Reset</button>
+            <button>OK</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

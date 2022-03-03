@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab1</title>
+  </head>
+  <body>
+    <div
+      style="
+        font-family: 'Times New Roman', Times, serif;
+        background-color: #ffffe0;
+      "
+    >
+    
+      <div style="padding-left: 50px">
+        <h1 style="color: rgb(11, 184, 25)">Hướng dẫn đưa Web lên Heroku</h1>
+        <p style="background-color: rgb(191, 241, 225); width: max-content">
+          14 tháng 10, 2021 - 256 lượt xem
+        </p>
+      </div>
+      <div style="padding-left: 20px">
+        <h2>1. Chuẩn bị</h2>
+        <p>
+          Đăng ký tài khoản trên trang Heroku theo link:
+          <a href="https://signup.heroku.com/">https://signup.heroku.com/</a>
+        </p>
+        <p>
+          Đảm bảo trên máy tính của mình đã cài đặt git (Nếu chưa thì vào link
+          sau để cài đặt lên máy:
+          <a href="https://git-scm.com/downloads"
+            >https://git-scm.com/downloads</a
+          >)
+        </p>
+        <p>
+          → Sau khi cài xong vào CMD (trên máy Window) hoặc Terminal (trên máy
+          Mac hoăc Ubuntu) và gõ lệnh
+          <span style="background: #d9d9d9">git --version</span> để kiểm tra kết
+          quả
+        </p>
+      </div>
+      <div style="padding-left: 20px">
+        <h2>2. Tạo app trên Heroku</h2>
+        <p>
+          Trên trình duyệt vào trang dashboard của heroku:
+          <a href="https://dashboard.heroku.com/login"
+            >https://dashboard.heroku.com/login</a
+          >
+        </p>
+        <p>
+          Chọn button
+          <span style="background-color: #d9d9d9"><b>New</b></span> và
+          <span style="background-color: #d9d9d9"><b>Create</b></span> new app:
+        </p>
+        <img
+          src="https://1.bp.blogspot.com/-AED0gPYgV9I/Xh1Otm79q8I/AAAAAAAAAtQ/uyZkvH-3_nIlB9CX4ufl3cKKI279eAmIgCLcBGAsYHQ/s640/a2.png"
+          alt="Cửa sổ hiển thị"
+          style="padding-left: 30%"
+        />
+        <p>
+          Sau đó điền thông tin của web vào ( tên mà minh muốn tạo). Ví dụ ở đây
+          đặt tên: fptaptech. Sau đó nhấn vào Create app
+        </p>
+        <img
+          src="https://1.bp.blogspot.com/-zP2uxdyU88A/Xh1Ozi3wmdI/AAAAAAAAAtU/p4X7UN5GKZgNahu-kuzlvgO8FC8Ek3BxgCLcBGAsYHQ/s640/a3.png"
+          alt="Ảnh tạo mới heroku"
+          style="padding-left: 30%"
+        />
+        <p>
+          Sau khi tạo xong sẽ có 1 web theo đường dẫn:
+          <span style="background-color: #d9d9d9"
+            ><i>(tên_app).herokuapp.com/</i></span
+          >
+        </p>
+      </div>
+      <div style="padding-left: 20px">
+        <h2>3. Đưa các tệp tin của mình lên web trên heroku</h2>
+        <p>
+          Khi đã có app ở bước 2, tức là mình đã có 1 website cho riêng mình
+          trên Heroku. Giờ cần tìm cách đưa các tập tin web mình muốn lên đó. Vì
+          vậy cần dùng heroku cli và git để đưa lên.
+        </p>
+        <p>
+          Tạo 1 new folder trên máy tính để đồng bộ và kết nối với web trên
+          heroku. Ví dụ ở đây tạo 1 folder tên là FptAptech trên desktop
+        </p>
+        <img
+          src="https://1.bp.blogspot.com/-ECRQGCcBdjw/Xh1O3yozyiI/AAAAAAAAAtY/BvCmDF0Oqlwl4sDQ-aMoY4KhC-cWkKe3gCLcBGAsYHQ/s640/a4.png"
+          alt="Ảnh folder FPT aptech"
+          style="padding-left: 30%"
+        />
+        <p>
+          Giờ chúng ta sẽ trỏ CMD hoặc Terminal vào trong folder này bằng lệnh:
+          <b>cd <đường dẫn trong máy tính></b>/FptAptech
+        </p>
+        <p>→ phải đảm bảo có đường dẫn trong CMD hoặc Terminal như hình:</p>
+        <img
+          src="https://1.bp.blogspot.com/-ASfBfAPJgo8/Xh1O8JC4O2I/AAAAAAAAAtg/gli2W5Xu2IoUEPEK6WXxeYhceI0N4rY6ACLcBGAsYHQ/s640/z5.png"
+          alt="Ảnh chạy CMD"
+          style="padding-left: 30%"
+        />
+        <p>
+          Dùng lệnh sau để login Heroku trên CMD (Terminal):
+          <span style="background-color: #d9d9d9">heroku login</span>
+        </p>
+        <p style="font-family: arial">
+          <b
+            >Ở trên là cách làm sử dụng CMD hoặc Terminal, nếu có sử dụng 1 số
+            tool khác như WebStorm thì ở bước 3, thay vì sử dụng CMD hoặc
+            Terminal, có thể sử dụng ngay chức năng Terminal của tool.</b
+          >
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

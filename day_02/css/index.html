@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- đường link nối css -->
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        h1{
+            color: aquamarine !important;
+        }
+        /* important giá trị ưu tiên cao nhất */
+        p {
+            color: blueviolet;
+        }
+        #para{
+            color: black;
+        }
+        .content{
+            color: chartreuse;
+        }
+        h2.content{
+            color: darksalmon;
+        }
+        h2.content.text{
+            color: coral;
+        }
+        #heading{
+            color: black;
+        }
+        h2#heading.content{
+            color: antiquewhite;
+        }
+        div.card div.card-content p{
+            color: rgb(43, 226, 156);
+            /* ghi đè màu sau lên trước */
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: red;">Đây là h1</h1>
+    <p id="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur facere nulla magnam consequatur at, veniam nesciunt mollitia esse deleniti sed ullam explicabo laudantium modi reprehenderit cum nemo cupiditate, cumque rerum.</p>
+    <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, molestias eius amet nam consequuntur rerum aperiam facere dolore error quae iste maiores ea ipsam suscipit quis harum reprehenderit dolor. Aut.</p>
+    <h2 class="content text" id="heading"> Thẻ H2</h2>
+    <div class="card">
+        <div class="card-content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt minus, nobis, perferendis libero quisquam repudiandae at ex saepe illo sit odit! Reiciendis accusamus sit totam necessitatibus corrupti qui dolore unde!</p>
+        </div>
+        <div class="card-info">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum natus, eaque doloribus repudiandae iure delectus odit corporis tempora commodi libero, excepturi magni fuga sequi, dicta eos rem sunt hic blanditiis.</p>
+        </div>
+    </div>
+</body>
+</html>
