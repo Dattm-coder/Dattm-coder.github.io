@@ -57,6 +57,9 @@ a {
     text-decoration: none;
     color: #464646;
 }
+.teacher{
+    color: #686a6d;
+}
 
 .timetable {
     padding: 7px 0;
@@ -77,4 +80,5 @@ a {
     border-top: 0.5px solid #c4c4c4e3;
     padding: 7px 0 5px 0;
     color: #3c78e8;
+    margin-top: 5px;
 }
