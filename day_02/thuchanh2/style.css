@@ -27,7 +27,7 @@ img{
     font-size: 19px;
     margin-bottom: 16px;
     margin-top: 12px;
-    text-align: center;
+    float: left;
 }
 .content .type, .content .rating{
     color: #757575;
