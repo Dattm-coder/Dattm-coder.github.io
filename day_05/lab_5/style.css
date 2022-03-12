@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto-Regular", sans-serif;
     background-color: azure;
 
     height: 100vh;
@@ -16,7 +16,9 @@ body {
 
     color: #757575;
 }
-
+img{
+    width: 150px;
+}
 a {
     text-decoration: none;
     color: #757575;
@@ -35,7 +37,7 @@ ul {
 }
 
 .menu-item {
-    width: 200px;
+    width: 210px;
     position: relative;
 }
 
@@ -74,12 +76,13 @@ ul {
 } */
 
 .sub-menu {
-    width: 200px;
+    width: 210px;
     position: absolute;
-    top: 0;
-    left: 200px;
+    top: 0 ;
+    left: 210px;
     background-color: #fff;
     display: none;
+    
 }
 
 .menu-item:hover >.sub-menu {
