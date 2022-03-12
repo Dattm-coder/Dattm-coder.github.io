@@ -15,53 +15,64 @@ body {
     height: 50px;
 
 }
+
 .button {
     border: none;
     margin: 4px 2px;
     cursor: pointer;
-  }
-.back{
-      background-color: #d61010;
-      font-family: 'roboto', sans-serif;
-      margin: 5px 30px;
-      color: white;
-      border-radius: 2px;
-      padding: 5px 5px;
+    text-align: center;
+}
+
+.back {
+    background-color: #d61010;
+    font-family: 'roboto', sans-serif;
+    margin: 5px 30px;
+    color: white;
+    border-radius: 10px;
+    padding: 2px 8px;
     text-align: center;
     font-size: 16px;
-  }
- a{
-     text-decoration: none;
- } 
- .frame{
-    
+}
+.back:hover {background-color: #3e8e41}
+
+a {
+    text-decoration: none;
+}
+
+.frame {
+
     font-size: 1.2rem;
     padding: 0.5rem 1.5rem;
- }
- .title{
+}
+
+.title {
     border: 1px solid #dbd6d6;
     font-size: 1.2rem;
     padding: 0.8rem 1.5rem;
- }
- .support{
+}
+
+.support {
     align-items: center;
     border: 1px solid #dbd6d6;
     display: flex;
     padding: 1rem 1.5rem 2rem;
- }
- .support-info-right span {
+}
+
+.support-info-right span {
     color: #414141;
     display: block;
     font-style: normal;
     margin-bottom: 0.5rem;
- }
- .support-info-left img {
+}
+
+.support-info-left img {
     border-radius: 100px;
     height: 100px;
     width: 100px;
     margin-right: 1rem;
- }
- .btn-primary {
+}
+
+.btn-primary {
     color: #fff;
     background-color: #007bff;
     border-color: #007bff;
@@ -69,18 +80,21 @@ body {
     border-radius: 3px;
     border: 1px solid transparent;
 }
-.content{
+
+.content {
     align-items: center;
     border: 1px solid #dbd6d6;
     display: flex;
     padding: 1rem 1.5rem 2rem;
 }
-ul{
+
+ul {
     display: block;
     list-style-type: disc;
     padding-left: 40px;
     font-weight: 0px;
 }
-ol{
+
+ol {
     padding-left: 40px;
 }

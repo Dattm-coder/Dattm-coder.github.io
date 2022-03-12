@@ -19,17 +19,20 @@ body {
     border: none;
     margin: 4px 2px;
     cursor: pointer;
-  }
-.back{
-      background-color: #d61010;
-      font-family: 'roboto', sans-serif;
-      margin: 5px 30px;
-      color: white;
-      border-radius: 2px;
-      padding: 5px 5px;
+    text-align: center;
+}
+
+.back {
+    background-color: #d61010;
+    font-family: 'roboto', sans-serif;
+    margin: 5px 30px;
+    color: white;
+    border-radius: 10px;
+    padding: 2px 8px;
     text-align: center;
     font-size: 16px;
-  }
+}
+.back:hover {background-color: #3e8e41}
  a{
      text-decoration: none;
  } 
