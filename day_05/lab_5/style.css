@@ -34,11 +34,12 @@ ul {
 
 .menu {
     background-color: #fff;
+    position: relative;
 }
 
 .menu-item {
     width: 210px;
-    position: relative;
+    /* position: relative; */
 }
 
 .menu-item p {
@@ -82,7 +83,7 @@ ul {
     left: 210px;
     background-color: #fff;
     display: none;
-    
+    height: 100%;
 }
 
 .menu-item:hover >.sub-menu {
