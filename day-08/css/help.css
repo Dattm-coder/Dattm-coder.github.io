@@ -163,11 +163,10 @@ ul {
 } */
 /*  */
 /* container */
-h1{ font-size: 30px;
+h1{ font-size: 40px;
     position: absolute;
-    color: #464646;
+    color: rgb(194, 21, 21);
     top: 60px;
-    left: 130px;
     font-weight: 700;
     animation: h1 1.5s forwards;
 
@@ -176,11 +175,12 @@ h1{ font-size: 30px;
     from{
         left: -100px;
     }to{
-        left: 120px;
+        left: 520px;
     }
 }
 
 .container {
+    color: #464646;
     font-family: 'roboto', sans-serif;
     display: flex;
     justify-content: center;
@@ -191,82 +191,12 @@ h1{ font-size: 30px;
 .title{
     color: #464646;
 }
-.box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-
+.buy-wrapper h1{
+    text-align: center;
 }
-
-.card { 
-    height: 450px;
-    flex-basis: 20%;
-    margin: 1.3rem;
-    border: 5px;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
-    overflow: hidden;
-    align-content: space-between;
-    transition: all 1s;
-    position: relative;
-    animation: card 1.5s forwards;
+.buy-wrapper h2{
+    color: rgb(194, 21, 21);
 }
-@keyframes card{
-    from{
-          margin-top: 2000px;  
-    }to{
-        margin-top: 20px;
-    }
-}
-.card:hover{
-    transform: scale(1.1);
-}
-.card a{
-    text-decoration: none;
-    color: #fff;
-}
-.card .image {
-    height: 250px;
-    overflow: hidden;
-    margin: 0 auto;
-
-}
-
-.content h2 {
-    color: #464646;
-    font-size: 1.2rem;
-    margin-bottom: 16px;
-    margin-top: 12px;
-    text-align: start;
-}
-
-.content .type, .content .rating {
-    color: #8f8a8a;
-    font-size: 14px;
-    font-weight: 400;
-    margin-bottom: 12px;
-
-}
-
-.content .rating i {
-    color: #ffd600;
-}
-
-.content {
-    padding: 20px;
-}
-
-.price {
-    color: #FF4500;
-}
-
-.type {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 
 /*  */
 /* footer */
